@@ -37,6 +37,12 @@ Checkpoints:
 - `python scripts/evaluate_go2height_readiness.py --replicas 4 --seconds 4 --transition_seconds 2 --output output/data/assignment_6_go2height_readiness.json`
 - `python scripts/evaluate_go2_composition.py --replicas 4 --seconds 5 --transition_seconds 2 --output output/data/assignment_6_go2_composition.json`
 
+# Demo reproduction
+
+Run once from the repository root; it writes the synchronized six-second MP4 to `output/video/assignment_6_frozen_policy_comparison.mp4`:
+
+`uv run --frozen --with imageio --with imageio-ffmpeg python -m scripts.render_go2_comparison_video`
+
 # Known limitations
 
 - MuJoCo CPU only; no hardware or cross-backend evidence.
