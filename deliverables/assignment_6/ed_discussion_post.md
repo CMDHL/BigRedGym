@@ -30,8 +30,8 @@ This is **not ready for hardware**. The best preliminary result is 7/8 (87.5%), 
 
 ## Links
 
-- Draft PR: added after creation.
-- Synchronized simulation video: `output/video/assignment_6_frozen_policy_comparison_sequential.mp4` on the submission branch.
+- Draft PR: https://github.com/LampLighterLab/BigRedGym/pull/23
+- Synchronized simulation video: https://github.com/CMDHL/BigRedGym/blob/assignment-6-training-free-composition/output/video/assignment_6_frozen_policy_comparison_sequential.mp4
 
 ## Feedback requested
 
